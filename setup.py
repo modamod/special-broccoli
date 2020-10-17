@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=['invoke'],
+    install_requires=['invoke', 'pyyaml'],
     entry_points={
         'console_scripts': ['uinv = sbroccoli.main:program.run']
     }
